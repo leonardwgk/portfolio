@@ -15,7 +15,6 @@ class PesanController extends Controller
             'pesan' => 'required'
         ];
         $data = $request->validate($rules);
-        $data = $request->all();
         Pesan::create($data);
         return redirect('/');
     }
