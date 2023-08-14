@@ -1,0 +1,17 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+
+.projects {
+    background-color: #e2edff;
+}
+
+.projects .card:hover {
+    width: 370px;
+}
+
+.footer {
+    background-color: #00c8ff;
+    color: white;
+}
